@@ -1,6 +1,6 @@
-// ================== [ Production VxctorDev ] ================== \\
-// ================== [ Production VxctorDev ] ================== \\
-// ================== [ Production VxctorDev ] ================== \\
+// ================== [ LEIA O README.md!! ] ================== \\
+// ================== [ LEIA O README.md!! ] ================== \\
+// ================== [ LEIA O README.md!! ] ================== \\
 
 const Discord = require("discord.js");
 const Config = require("./Configurations/Conf_Private.json");
