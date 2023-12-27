@@ -1,4 +1,4 @@
-## <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/networkx/networkx-original.svg" width="25px"/>   Discord Moderation V1
+## <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/networkx/networkx-original.svg" width="25px"/>   Discord Moderation V1.0
 
 Olá, seja bem vindo(a) a o **Bot Moderation V1.0.1**!
 <br>Criei o bot justamente para ajudar a moderação do seu servidor do Discord!
