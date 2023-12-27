@@ -1,15 +1,14 @@
-// ================== [ Production VxctorDev ] ================== \\
-// ================== [ Production VxctorDev ] ================== \\
-// ================== [ Production VxctorDev ] ================== \\
-
 const Client = require("../../index");
 const Discord = require("discord.js");
+const Status = require("../../Configurations/Conf_Status");
+// Configurações do status: Configurations > Conf_Status.js!
 
 Client.on("ready", () => {
     const ListMessages = [
-        `🏆  Melhor bot de Moderação!`, // Status 1
-        `🏆 .gg/myServer`, // Status 2
-        `🏆  2024 (R)`, // Status 3
+        `${Status.Modified1}`, // Status 1
+        `${Status.Modified2}`, // Status 2
+        `${Status.Modified3}`, // Status 3
+        `${Status.Modified4}` // Status 4
     ];
   
     let position = 0;
@@ -17,9 +16,10 @@ Client.on("ready", () => {
             activities: [{
                 name: `${ListMessages[position++ % ListMessages.length]}`,
                 type: Discord.ActivityType.Streaming,
-                url: 'https://www.twitch.tv/TwitchStatusServer'
+                url: `${Status.TwitchLink}`
             }]
         }), 1000 * 10);
     
-        Client.user.setStatus("idle");
+        Client.user.setStatus(`${Status.StatusBol}`);
+        console.log("|  🔨 STATUS  |".bgMagenta + "   ➥  Sistema de Status ativado com sucesso!".green);
     });

@@ -1,9 +1,5 @@
-// ================== [ LEIA O README.md!! ] ================== \\
-// ================== [ LEIA O README.md!! ] ================== \\
-// ================== [ LEIA O README.md!! ] ================== \\
-
 const Discord = require("discord.js");
-const Config = require("./Configurations/Conf_Private.json");
+const Config = require("./Configurations/Conf_Private.js");
 const Client = new Discord.Client({ intents: [ Discord.GatewayIntentBits.Guilds ] });
 module.exports = Client;
 

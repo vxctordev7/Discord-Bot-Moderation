@@ -1,7 +1,3 @@
-// ================== [ Production VxctorDev ] ================== \\
-// ================== [ Production VxctorDev ] ================== \\
-// ================== [ Production VxctorDev ] ================== \\
-
 const fs = require("fs");
 
 module.exports = async (Client) => {
