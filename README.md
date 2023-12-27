@@ -1,10 +1,10 @@
 ## <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/networkx/networkx-original.svg" width="25px"/>   Discord Moderation V1
 
-Olá, seja bem vindo(a) a o **Bot Moderation V1**!
+Olá, seja bem vindo(a) a o **Bot Moderation V1.0.1**!
 <br>Criei o bot justamente para ajudar a moderação do seu servidor do Discord!
 - ⚠️ **Apenas comandos para se utilizar no dia-a-dia do seu servidor! (Utilize com Moderação).**
 
-## ✨Latest Updates | v1.1
+## ✨Latest Updates | v1.0.1
 ➥ O que há de novo?
 - +6 Comandos adicionados.
 - Configurações foram trocadas para outra linguagem.
